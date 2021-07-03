@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <style>
+
+        body{
+            background: rgb(135, 196, 231);
+            background: linear-gradient(to right, rgb(137, 157, 245));
+        }
+
+
+        .gr{
+            background-image: url(img/grande.jpg);
+            background-position: center center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container w-75 gr-primary mt-5 rounded shadow">
+        <div class="row align-items-lg-stretch">
+            <div class="col gr d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
+                
+            </div>
+            <div class="col">
+                <div class="text-end">
+                    <img src="img/cerebro.png" width="50" alt="">
+                </div>
+             <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+             <form action="">
+                 <div class="mb-4">
+                    <label for="correo" class="form-label">Correo electrónico</label>
+                    <input type="correo" class="form-control" name="correo">
+                 </div>
+                 <div class="mb-4">
+                    <label for="Contraseña" class="form-label">Contraseña</label>
+                    <input type="Contraseña" class="form-control" name="Contraseña">
+                 </div>
+                
+                 <div class="d-grid">
+                     <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                 </div>
+                 <div class="my-3">
+                     <span>¿No tienes cuenta? <a href="registro.html">Registrate</a></span><br>
+                     <span><a href="">Recuperar Contraseña</a></span>
+                 </div>
+             </form>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
